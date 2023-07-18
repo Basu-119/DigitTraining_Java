@@ -31,19 +31,24 @@ public class Exception_Tryandcatch {
 		} catch (ArithmeticException e1) {
 
 			System.out.println("ArithmeticException");
-		} catch (NegativeArraySizeException e2) {
+		}
+//		catch (NegativeArraySizeException e2) {
+//
+//			System.out.println("NegativeArraySizeException");
+//		} catch (ArrayIndexOutOfBoundsException e3) {
+//
+//			System.out.println("ArrayIndexOutOfBoundsException");
+//		} catch (InputMismatchException e4) {
+//
+//			System.out.println("InputMismatchException");
+//		} catch (NullPointerException e5) {
+//
+//			System.out.println("NullPointerException");
+//		}
+		catch (NegativeArraySizeException | ArrayIndexOutOfBoundsException e2) {// Multi Catch Exception
 
-			System.out.println("NegativeArraySizeException");
-		} catch (ArrayIndexOutOfBoundsException e3) {
-
-			System.out.println("ArrayIndexOutOfBoundsException");
-		} catch (InputMismatchException e4) {
-
-			System.out.println("InputMismatchException");
-		} catch (NullPointerException e5) {
-
-			System.out.println("NullPointerException");
-		} catch (Exception e) {//Generic is the last catch block
+			System.out.println("Array Exception");
+		} catch (Exception e) {// Generic is the last catch block
 
 			System.out.println(" Generic Exception HAndler");
 		}
