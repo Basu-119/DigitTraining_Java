@@ -1,10 +1,10 @@
 package com.Digit.Problems;
 
-public class Consumer extends Thread{
+public class Consumer2 extends Thread {
 
-	Queue b;
+	Queue2 b;
 
-	public Consumer(Queue q) {
+	public Consumer2(Queue2 q) {
 		b = q;
 		// TODO Auto-generated constructor stub
 	}
@@ -17,4 +17,5 @@ public class Consumer extends Thread{
 
 		}
 	}
+
 }
