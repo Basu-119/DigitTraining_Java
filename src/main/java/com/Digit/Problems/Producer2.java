@@ -5,7 +5,6 @@ public class Producer2 extends Thread{
 
 	public Producer2(Queue2 q) {
 		a = q;
-
 	}
 
 	@Override

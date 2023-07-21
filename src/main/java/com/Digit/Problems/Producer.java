@@ -1,12 +1,10 @@
 package com.Digit.Problems;
 
 public class Producer extends Thread {
-
 	Queue a;
 
 	public Producer(Queue q) {
 		a = q;
-
 	}
 
 	@Override
