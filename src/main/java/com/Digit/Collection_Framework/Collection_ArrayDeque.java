@@ -10,6 +10,9 @@ public static void main(String[] args) {
 	ad.add(4668);
 	System.out.println(ad);
 	ad.remove();
+	
+	
+	
 	System.out.println(ad);
 }
 }
