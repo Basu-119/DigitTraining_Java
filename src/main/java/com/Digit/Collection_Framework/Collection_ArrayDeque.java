@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	ad.add(100);
 	ad.add(4668);
 	System.out.println(ad);
-	ad.remove();
+
 	
 	
 	

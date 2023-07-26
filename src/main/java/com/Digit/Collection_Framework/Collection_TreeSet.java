@@ -14,6 +14,10 @@ public class Collection_TreeSet {
 		ts.add(291);
 		ts.add(125);
 		System.out.println(ts);
+		
+		for(int i=0;i<2;i++) {
+			System.out.println(ts);
+		}
 	}
 
 }

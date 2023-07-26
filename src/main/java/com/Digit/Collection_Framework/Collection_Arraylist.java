@@ -14,6 +14,10 @@ public class Collection_Arraylist {
 		a.add(1, "Basudev");//add element in index 1
 		a1.add(212);//add in another array
 		int ao=0;
+		
+		for(int i=0;i<2;i++) {
+			System.out.println(a.get(i));
+		}
 		a1.add("Basu");
 //		a.addAll(1,a1);//add array a1 in array a
 		
